@@ -51,6 +51,11 @@ The dataset consists of 3D medical images and their segmentations in NIfTI forma
    - Significant improvement in the overlap of registered segmentations, as observed in Dice coefficient plots.
    - Slight increase in Hausdorff distance for both loss functions, likely due to outlier pixels.
 
+## Visualizations of fixed and warped segmentations
+
+![image](https://github.com/user-attachments/assets/56243923-01e9-482e-92cb-2c9a8a85dc91)
+
+
 ## Conclusion
 The VoxelMorph model demonstrates effective image registration, with NCC performing slightly better than SSD in terms of Dice coefficient. While Hausdorff distance results showed unexpected increases due to stray pixels, the overall alignment and segmentation overlap significantly improved. This project highlights the potential of deep learning-based approaches for robust and efficient medical image registration.
 
